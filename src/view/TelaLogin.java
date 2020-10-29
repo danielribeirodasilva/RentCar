@@ -1,6 +1,7 @@
 package view;
 
-import controller.Login;
+import model.Login;
+import javax.swing.JOptionPane;
 
 public class TelaLogin extends javax.swing.JFrame {
 
@@ -103,8 +104,6 @@ public class TelaLogin extends javax.swing.JFrame {
         String senha = txtSenha.getText();
         Login login = new Login();
         login.Logar(usuario, senha);
-        TelaPrincipal principal = new TelaPrincipal();
-        principal.setVisible(true);
     }//GEN-LAST:event_btLoginActionPerformed
 
     private void txtUsuarioFocusLost(java.awt.event.FocusEvent evt) {//GEN-FIRST:event_txtUsuarioFocusLost
@@ -121,6 +120,11 @@ public class TelaLogin extends javax.swing.JFrame {
                 new TelaLogin().setVisible(true);
             }
         });
+    }
+    
+    public void Limpar(){
+        txtUsuario.setText(null);
+        txtSenha.setText("");
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
