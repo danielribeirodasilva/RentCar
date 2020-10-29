@@ -22,7 +22,7 @@
         </Property>
       </Properties>
       <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;controller.Cliente&gt;"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;model.Cliente&gt;"/>
       </AuxValues>
     </Component>
     <Component class="javax.swing.ButtonGroup" name="buttonGroup1">

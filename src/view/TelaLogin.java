@@ -1,6 +1,6 @@
 package view;
 
-import model.Login;
+import controller.Login;
 import javax.swing.JOptionPane;
 
 public class TelaLogin extends javax.swing.JFrame {

@@ -6,7 +6,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import javax.swing.table.DefaultTableModel;
-import model.Cliente;
+import controller.Cliente;
 
 public class TelaCliente extends javax.swing.JFrame {
     public String ativo;
@@ -386,7 +386,7 @@ public class TelaCliente extends javax.swing.JFrame {
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JCheckBox cbNao;
     private javax.swing.JCheckBox cbSim;
-    private java.util.List<controller.Cliente> clienteList;
+    private java.util.List<model.Cliente> clienteList;
     private javax.persistence.Query clienteQuery;
     private javax.persistence.EntityManager entityManager;
     private javax.swing.JLabel jLabel1;
